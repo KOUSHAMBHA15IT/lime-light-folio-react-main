@@ -234,9 +234,15 @@ const Index = () => {
                         <Button size="sm" variant="outline" className="p-2">
                           <ExternalLink className="w-4 h-4" />
                         </Button>
-                        <Button size="sm" variant="outline" className="p-2">
-                          <Github className="w-4 h-4" />
-                        </Button>
+                        <a
+                          href={project.github}
+                           target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Button size="sm" variant="outline" className="p-2">
+                            <Github className="w-4 h-4" />
+                          </Button>
+                        </a>
                       </div>
                     </CardTitle>
                     <CardDescription>{project.description}</CardDescription>
