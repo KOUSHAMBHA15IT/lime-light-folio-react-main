@@ -127,7 +127,7 @@ const Index = () => {
                 View My Work
               </Button>
               <Button variant="outline" size="lg" className="border-lime-500 text-lime-400 hover:bg-lime-500 hover:text-black px-8" 
-              onClick={() => window.open("https://drive.google.com/file/d/1v83JO6LL6yroibmTXffgPTC4CZ1RetPE/view?usp=sharing", "_blank")}>
+              onClick={() => window.open("https://drive.google.com/file/d/1zaGBn3SCfH9iag6FQDQPNRGHeIQZ0T6m/view?usp=sharing", "_blank")}>
                 Download CV
               </Button>
             </div>
